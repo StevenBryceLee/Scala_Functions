@@ -326,16 +326,16 @@ args.foreach(println)
 // val numList = List(0,1,2,3,4)
 // println(containsOdd(numList))
 
-def curriedSum(x: Int)(y: Int) = x + y
-println(curriedSum(1)(2))
+// def curriedSum(x: Int)(y: Int) = x + y
+// println(curriedSum(1)(2))
 
-val twoPlus = curriedSum(2)_
-println(twoPlus(2))
+// val twoPlus = curriedSum(2)_
+// println(twoPlus(2))
 
-val assertionsEnabled = true
+// val assertionsEnabled = true
 
-def byNameAssert(predicate: => Boolean) = 
-     if (assertionsEnabled && !predicate)
-          throw new AssertionError
+// def byNameAssert(predicate: => Boolean) = 
+//      if (assertionsEnabled && !predicate)
+//           throw new AssertionError
 
-println(byNameAssert(5 == 3))
+// println(byNameAssert(5 == 3))
