@@ -1,0 +1,20 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(8e6a2a13-c457-4c07-be9c-f3e032591154), Some(CommandSource(console0)))[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: helloCore / Test / test, Test / test[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\steve\CS\scala\sbt-build\target\scala-2.12\test-classes ...[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 78 milliseconds.[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 0[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 0, aborted 0[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 0, failed 0, canceled 0, ignored 0, pending 0[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[33mNo tests were executed.[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mHelloSpec:[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- Hello should start with H[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- Hello with assertResult[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- assertThrows example[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 280 milliseconds.[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 3[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 3, failed 0, canceled 0, ignored 0, pending 0[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m[0J
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 2 s, completed Jan 14, 2021 2:02:41 PM[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m[0J

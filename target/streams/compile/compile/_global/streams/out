@@ -1,0 +1,169 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\10classes.scala:8:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mval ae = new ArrayElement(Array("Hello", "world"))[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\10classes.scala:14:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mval ae2 = new ArrayElement2(Array("Hell", "orld"))[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\11Hierarchy.scala:1:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mdef isEqual(x: Int, y: Int) = x == y[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\11Hierarchy.scala:2:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mprintln(isEqual(420,420))[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\11Hierarchy.scala:4:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mdef isEqual2(x: Any, y: Any) = x == y[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\11Hierarchy.scala:5:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mprintln(isEqual2(421,421))[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\11Hierarchy.scala:7:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mprintln("abcd".substring(2) == "abcd".substring(2))[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\11Hierarchy.scala:9:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mprintln("eq is different from ==, referring to reference")[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\11Hierarchy.scala:10:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mval x = new String("abc")[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\11Hierarchy.scala:11:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mval y = new String("abc")[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\11Hierarchy.scala:12:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mprintln(x eq y)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\11Hierarchy.scala:13:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mprintln(x ne y)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\11Hierarchy.scala:23:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mval money = new Vclass(100)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\11Hierarchy.scala:24:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mprintln(money)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\11Hierarchy.scala:25:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mprintln(money.a)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\12Traits.scala:13:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mval frog = new Frog[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\12Traits.scala:14:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mprintln(frog)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\12Traits.scala:16:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mfrog.philosophize()[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\12Traits.scala:62:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mval half = new Rational(1,2)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\12Traits.scala:63:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mval third = new Rational(1,3)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\12Traits.scala:64:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mprintln(half < third)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\12Traits.scala:65:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mprintln(half > third)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\12Traits.scala:84:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mval q = new BasicIntQueue[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\12Traits.scala:85:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mq.put(10)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\12Traits.scala:86:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mq.put(20)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\12Traits.scala:87:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mprintln(q.get())[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\12Traits.scala:88:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mprintln(q.get())[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\12Traits.scala:92:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mval qu = new doubleQ[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\12Traits.scala:93:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mqu.put(10)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\12Traits.scala:94:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mqu.put(20)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\12Traits.scala:95:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mprintln(qu.get())[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\12Traits.scala:96:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mprintln(qu.get())[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\12Traits.scala:107:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mval que = (new BasicIntQueue with Incrementing with Filtering)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\12Traits.scala:108:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mque.put(-1)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\12Traits.scala:109:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mque.put(0)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\12Traits.scala:110:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mque.put(1)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\12Traits.scala:111:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mprintln(que.get())[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\12Traits.scala:112:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mprintln(que.get())[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\14AssertTest.scala:1:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mprintln(assert(1 < 2))[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\Spiral.scala:1:8: Invalid literal number[0m[0J
+[0m[[0m[31merror[0m] [0m[0mimport 10classes.Element.elem[0m[0J
+[0m[[0m[31merror[0m] [0m[0m       ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\Spiral.scala:1:30: . expected[0m[0J
+[0m[[0m[31merror[0m] [0m[0mimport 10classes.Element.elem[0m[0J
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\Spiral.scala:27:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mdef main(args: Array[String]) = {[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\numTypes.scala:1:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mval hex = 0xf[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\numTypes.scala:2:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mprintln(hex)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\numTypes.scala:3:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mval long = 35L[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\numTypes.scala:4:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mprintln(long)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\numTypes.scala:5:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mval little: Short = 367[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\numTypes.scala:6:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mval littler: Byte = 38[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\numTypes.scala:7:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mprintln(little, littler)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\numTypes.scala:8:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mprintln("""|Welcome to Ultamix 3000.[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\numTypes.scala:10:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mval name = "Reader"[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\numTypes.scala:11:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mprintln(s"Hello, $name!")[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\numTypes.scala:12:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mprintln(s"The answer is ${6 * 7}")[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\numTypes.scala:13:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mval hw = "Hello World!"[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\numTypes.scala:14:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mval res = hw indexOf ('o', 5)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\numTypes.scala:15:1: expected class or object definition[0m[0J
+[0m[[0m[31merror[0m] [0m[0mprintln(res)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m^[0m[0J
+[0m[[0m[31merror[0m] [0m[0m56 errors found[0m[0J

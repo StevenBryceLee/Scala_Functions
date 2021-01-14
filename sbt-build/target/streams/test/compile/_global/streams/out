@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\sbt-build\src\test\scala\HelloSpec.scala:2:22: object flatspec is not a member of package org.scalatest[0m[0J
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.flatspec.AnyFlatSpec[0m[0J
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\sbt-build\src\test\scala\HelloSpec.scala:3:31: object should is not a member of package org.scalatest.matchers[0m[0J
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.matchers.should.Matchers[0m[0J
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m[0J

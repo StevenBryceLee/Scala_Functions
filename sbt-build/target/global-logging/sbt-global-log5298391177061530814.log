@@ -1,0 +1,73 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(b77872b6-0517-4e9e-9e90-fa037140444f), Some(CommandSource(console0)))[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: helloCore / Test / test, Test / test[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\steve\CS\scala\sbt-build\target\scala-2.12\test-classes ...[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\sbt-build\src\test\scala\HelloSpec.scala:2:22: object flatspec is not a member of package org.scalatest[0m[0J
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.flatspec.AnyFlatSpec[0m[0J
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mC:\Users\steve\CS\scala\sbt-build\src\test\scala\HelloSpec.scala:3:31: object should is not a member of package org.scalatest.matchers[0m[0J
+[0m[[0m[31merror[0m] [0m[0mimport org.scalatest.matchers.should.Matchers[0m[0J
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m[0J
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 28 milliseconds.[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 0[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 0, aborted 0[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 0, failed 0, canceled 0, ignored 0, pending 0[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[33mNo tests were executed.[0m[0m[0J
+[0m[[0m[31merror[0m] [0m[0mCompilation failed[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.CachedCompiler0.handleErrors(CompilerBridge.scala:183)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.CachedCompiler0.run(CompilerBridge.scala:172)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.CachedCompiler0.run(CompilerBridge.scala:134)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at xsbt.CompilerBridge.run(CompilerBridge.scala:39)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.AnalyzingCompiler.compile(AnalyzingCompiler.scala:92)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$7(MixedAnalyzingCompiler.scala:186)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.MixedAnalyzingCompiler.timed(MixedAnalyzingCompiler.scala:241)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4(MixedAnalyzingCompiler.scala:176)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.MixedAnalyzingCompiler.$anonfun$compile$4$adapted(MixedAnalyzingCompiler.scala:157)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.JarUtils$.withPreviousJar(JarUtils.scala:232)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.MixedAnalyzingCompiler.compileScala$1(MixedAnalyzingCompiler.scala:157)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.MixedAnalyzingCompiler.compile(MixedAnalyzingCompiler.scala:204)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1(IncrementalCompilerImpl.scala:571)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileInternal$1$adapted(IncrementalCompilerImpl.scala:571)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.Incremental$.$anonfun$apply$5(Incremental.scala:174)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.Incremental$.$anonfun$apply$5$adapted(Incremental.scala:172)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.Incremental$$anon$2.run(Incremental.scala:459)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCommon$CycleState.next(IncrementalCommon.scala:116)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:56)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCommon$$anon$1.next(IncrementalCommon.scala:52)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCommon.cycle(IncrementalCommon.scala:261)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.Incremental$.$anonfun$incrementalCompile$8(Incremental.scala:414)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.Incremental$.withClassfileManager(Incremental.scala:499)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.Incremental$.incrementalCompile(Incremental.scala:401)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.Incremental$.apply(Incremental.scala:166)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompilerImpl.compileInternal(IncrementalCompilerImpl.scala:571)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompilerImpl.$anonfun$compileIncrementally$1(IncrementalCompilerImpl.scala:489)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompilerImpl.handleCompilationError(IncrementalCompilerImpl.scala:332)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompilerImpl.compileIncrementally(IncrementalCompilerImpl.scala:419)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.inc.IncrementalCompilerImpl.compile(IncrementalCompilerImpl.scala:137)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.compileIncrementalTaskImpl(Defaults.scala:2143)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$compileIncrementalTask$2(Defaults.scala:2100)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.io.Retry$.apply(Retry.scala:40)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.io.Retry$.apply(Retry.scala:23)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.server.BspCompileTask$.compute(BspCompileTask.scala:31)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Defaults$.$anonfun$compileIncrementalTask$1(Defaults.scala:2096)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:49)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(Transform.scala:68)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:291)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.FutureTask.run(FutureTask.java:266)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.FutureTask.run(FutureTask.java:266)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Thread.java:748)[0m[0J
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mcompileIncremental[0m) Compilation failed[0m[0J
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Jan 14, 2021 2:04:15 PM[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m[0J
