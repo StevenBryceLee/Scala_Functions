@@ -71,3 +71,4 @@
 [0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Jan 14, 2021 2:04:15 PM[0m[0J
 [0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m[0J
 [0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m[0J
+[0m[[0m[33mwarn[0m] [0m[0m11.548 seconds of the last 10 seconds were spent in garbage collection. You may want to increase the project heap size using `-Xmx` or try a different gc algorithm, e.g. `-XX:+UseG1GC`, for better performance.[0m[0J
