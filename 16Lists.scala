@@ -36,7 +36,6 @@ println(abcde.indices)
 println(abcde.indices zip abcde)
 val buf = new StringBuilder
 println(abcde.addString(buf, "(", ";", ")"))
-
 val flattenedList = List(List(1,2), List(), List(3)).flatten
 println(flattenedList)
 
